@@ -145,8 +145,8 @@
 
     <nav>
         <a href="abd.php">Home</a>
-        <a href="registration.php">Book</a>
-        <a href="./Controllers/login.php">Admin</a>
+        <a href="#">Regestration</a>
+        <a href="./Controllers/login.php">Manager</a>
     </nav>
 
     <section id="home">
@@ -168,35 +168,7 @@
     </section>
     <section id="Check">
         <h2>Book Now</h2>
-        <form action="registration.php" method="get">
-            <table>
-                <tr> 
-                    <th>Destination</th>
-                    <th>Check In Date</th>
-                    <th>Check Out Date</th>
-                    <th>Room</th> 
-                </tr>
-                <tr> 
-                    <td> <input type="text" name="D1" placeholder="Enter Destination"></td>
-                    <td> <input type="date" name="ci"></td>
-                    <td>  <input type="date" name="co"></td>
-                    <td>
-                        <select name="room">
-                            <option>1 <p>AC $1500</p></option>
-                            <option>2 <p>NON_AC $1000</p></option>
-                            <option>3 <p>NON_AC $1200</p></option>
-                            <option>4 <p>AC $2500</p></option>
-                            <option>5 <p>NON_AC $900</p></option>
-                        </select>
-                    </td> 
-                </tr>
-                <tr>
-                    <td colspan="4">
-                        <input type="submit" value="Availability" name="sub">
-                    </td>
-                </tr>
-            </table>
-        </form>
+        
     </section>
     <section id="rooms">
         <h2>Our Rooms</h2>

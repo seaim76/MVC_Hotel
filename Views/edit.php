@@ -20,22 +20,23 @@ $result = edit($id);
         form {
             max-width: 400px;
             margin: 0 auto;
-            padding: 20px;
-            background-color: #ffffff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            background-color: wheat;
+            border-radius: 10px;
+          
         }
         
         input[type="text"] {
             width: 100%;
             padding: 10px;
             margin-bottom: 10px;
-            border: 1px solid #ccc;
+            border: 1px solid black;
             border-radius: 4px;
         }
         
         button {
-            background-color: #007BFF;
-            color: #fff;
+            background-color: red;
+            color: white;
             border: none;
             padding: 10px 20px;
             border-radius: 4px;
@@ -43,7 +44,7 @@ $result = edit($id);
         }
         
         button:hover {
-            background-color: #0056b3;
+            background-color: green;
         }
     </style>
 </head>
@@ -52,9 +53,9 @@ $result = edit($id);
         <?php while($row=$result->fetch_assoc()){ ?>
             Id: <input type="text" name="Id" value="<?php echo $row["Id"]; ?>"readonly><br>
             Name: <input type="text" name="name" value="<?php echo $row["Name"]; ?>"><br>
-            Email: <input type="text" name="email" value="<?php echo $row["Email"]; ?>"><br>
+            Email: <input type="text" name="email" value="<?php echo $row["Email"]; ?>"readonly><br>
             Address: <input type="text" name="address" value="<?php echo $row["Address"]; ?>"><br>
-            Phone Number: <input type="text" name="phone" value="<?php echo $row["phone"]; ?>"><br>
+            Phone Number: <input type="text" name="phone" value="<?php echo $row["phone"]; ?>"readonly><br>
             <button name="update" value="<?php echo $row["Id"]; ?>">Update</button>
         <?php } ?>
     </form>

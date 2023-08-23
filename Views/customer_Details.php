@@ -19,15 +19,20 @@ $result=customer_Details();
 			align-items: center;
 			height: 100vh;
 		}
+		h1{
+			padding: 20px 80px;
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			font-weight: 800;
+		}
 
 		table {
 			border-collapse: collapse;
 			width: 80%;
 			margin: 20px auto;
-			background-color: #fff;
+			background-color: wheat;
 			border: 1px solid #ccc;
 			border-radius: 5px;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			
 		}
 
 		th, td {
@@ -36,17 +41,17 @@ $result=customer_Details();
 		}
 
 		th {
-			background-color: #007BFF;
-			color: #fff;
+			background-color: blueviolet;
+			color: black;
 		}
 
-		tr:nth-child(even) {
-			background-color: #f2f2f2;
-		}
+		/* tr:nth-child(even) {
+			background-color: gray;
+		} */
 
 		button {
-			background-color: #d9534f;
-			color: #fff;
+			background-color: red;
+			color: white;
 			border: none;
 			padding: 5px 10px;
 			cursor: pointer;
@@ -54,7 +59,7 @@ $result=customer_Details();
 		}
 
 		button:hover {
-			background-color: #c9302c;
+			background-color: green;
 		}
 	</style>
 </head>

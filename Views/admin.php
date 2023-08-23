@@ -11,6 +11,7 @@
             margin: 0;
             padding: 0;
             background-color: wheat;
+            
         }
 
         h1 {
@@ -53,30 +54,37 @@
        .b1 a{
         text-decoration: none;
         font-size: 30px;
+        font-weight: 800;
        }
        .b2 a{
         text-decoration: none;
-        font-size: 30px;   
+        font-size: 30px; 
+        font-weight: 800;  
     }
        .b3 a{
         text-decoration: none;
         font-size: 30px;
+        font-weight: 800;
        }
        .b4 a{
         text-decoration: none;
         font-size: 30px;
+        font-weight: 800;
        }
        .b5 a{
         text-decoration: none;
-        font-size: 30px;   
+        font-size: 30px; 
+        font-weight: 800;  
     }
        .b6 a{
         text-decoration: none;
-        font-size: 30px;   
+        font-size: 30px; 
+        font-weight: 800;  
     }
        .b7 a{
         font-size: 30px;
         text-decoration: none;
+        font-weight: 800;
        }
     </style>
 </head>
